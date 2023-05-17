@@ -2,7 +2,7 @@
 
 namespace App\Entity\Post;
 
-use App\Repository\PostRepository;
+use App\Repository\Post\PostRepository;
 use Doctrine\DBAL\Types\Types;
 use Cocur\Slugify\Slugify;
 use Doctrine\ORM\Mapping as ORM;

@@ -9,4 +9,4 @@
 import './styles/app.css';
 import 'tw-elements'
 
-console.log('hello word');
+console.log('hello word!');
