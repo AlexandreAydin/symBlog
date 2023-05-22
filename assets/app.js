@@ -9,4 +9,13 @@
 import './styles/app.css';
 import 'tw-elements'
 
-console.log('hello word!');
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Webpack Encore is working !');
+  
+    // Like's system
+    const likeElements = [].slice.call(document.querySelectorAll('a[data-action="like"]'));
+    if (likeElements) {
+      new Like(likeElements);
+    }
+  })
+  
