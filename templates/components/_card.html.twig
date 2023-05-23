@@ -5,6 +5,7 @@
 		</a>
 	{% endif %}
 
+	{% include "components/_like.html.twig" %}
 
 	<div class="p-5">
 		<a href="{{ path('app_post.show', {slug: post.slug}) }}">
